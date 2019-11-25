@@ -11,6 +11,9 @@ for (i = 0; i < lis.length; i++) {
 }
 closesth.style.textAlign = "center"
 var info = document.getElementsByClassName("info")
+info[0].querySelectorAll("label")[0].style.borderBottom="3px solid yellow";
+info[0].querySelectorAll("label")[1].style.borderBottom="3px solid orange";
+info[0].querySelectorAll("label")[2].style.borderBottom="3px solid red";
 info[0].style.display = "flex";
 info[0].style.flexWrap = "warp"
 info[0].style.justifyContent = "space-around"
